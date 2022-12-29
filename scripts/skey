@@ -1,0 +1,3 @@
+#!/bin/bash
+
+screenkey --position fixed --geometry 30%x10%+65%-5% --font-size small --mouse --opacity 0.5
