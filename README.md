@@ -4,7 +4,7 @@
 :warning: Backup your configuration before installation
 
 ```bash
-$ cd $HOME && git clone https://github.com/phamhiep2506/dotfiles
+$ cd $HOME && git clone https://github.com/cavaldos/dotfiles
 $ cd dotfiles
 $ ./install.sh
 ```
