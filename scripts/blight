@@ -1,9 +1,0 @@
-#!/bin/bash
-
-NOTIFY_ID=2506
-
-bl=`light`
-
-value_bl=${bl%.*}
-
-dunstify "Backlight" "level: $value_bl%" -r $NOTIFY_ID -u normal 

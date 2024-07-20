@@ -1,5 +1,0 @@
-#!/bin/bash
-
-gpick --single --output | xclip -selection clipboard
-
-killall colorpicker
