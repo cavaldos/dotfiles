@@ -1,2 +1,4 @@
 /config/nvim/pack
 config/nvim/pack
+.DS_Store
+/.DS_Store
