@@ -30,9 +30,9 @@
 # """
 
 
+# [┌───────────────────>](bold green)
 format = """
-[┌───────────────────>](bold green)
-│[](color_orange)\
+[](color_orange)\
 $os\
 $username\
 [](bg:color_yellow fg:color_orange)\
@@ -78,19 +78,35 @@ $line_break$character\
 # [└─>](bold green) '''
 
 palette = 'gruvbox_dark'
-
+# one dark
 [palettes.gruvbox_dark]
-color_fg0 = '#fbf1c7'
-color_bg1 = '#3c3836'
-color_bg3 = '#665c54'
-color_blue = '#458588'
-color_aqua = '#689d6a'
-color_green = '#98971a'
-color_orange = '#d65d0e'
-color_purple = '#b16286'
-color_red = '#cc241d'
-color_yellow = '#d79921'
 
+color_text = '#ffffff'
+color_fg0 = '#000000'
+color_bg1 = '#282828'
+color_bg3 = '#3c3836'
+color_blue = '#A3BE8C'
+color_aqua = '#8FBCBB'
+color_green = '#80C05F'
+color_orange = '#BF616A'
+color_purple = '#c678dd'
+color_red = '#C8656F'
+color_yellow = '#D18770'
+
+
+#
+# color_fg0 = '#fbf1c7'
+# color_bg1 = '#3c3836'
+# color_bg3 = '#665c54'
+# color_blue = '#458588'
+# color_aqua = '#689d6a'
+# color_green = '#98971a'
+# color_orange = '#d65d0e'
+# color_purple = '#b16286'
+# color_red = '#cc241d'
+# color_yellow = '#d79921'
+#
+#
 [fill]
 symbol = ' '
 
@@ -98,8 +114,9 @@ symbol = ' '
 disabled = false
 time_format = "%R"
 style = "bg:color_bg1"
-format = '[[  $time ](fg:color_fg0 bg:color_bg1)]($style)'
-utc_time_offset = "0"
+format = '[[  $time ](fg:color_text bg:color_bg1)]($style)'
+#viet nam
+utc_time_offset = "+7"
 # battery
 
 [battery]
@@ -123,7 +140,7 @@ disabled = false
 threshold = -1
 symbol = '🧠'
 style = 'bold dimmed green'
-format = '[[${symbol} ${ram_pct} ](fg:color_fg0 bg:color_bg1)]($style)'
+format = '[[${symbol} ${ram_pct} ](fg:color_text bg:color_bg1)]($style)'
 
 # os
 [os]
@@ -294,4 +311,3 @@ disabled = false
 [git_metrics]
 added_style = 'bold blue'
 format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
-# config cpu
