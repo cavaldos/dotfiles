@@ -1,0 +1,14 @@
+[http]
+	version = HTTP/1.1
+	postBuffer = 524288000
+	maxRequestBuffer = 100M
+[user]
+	email = gmail@gmail.com
+	name = Cavaldos
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[url "https://github.com/"]
+	insteadOf = git@github.com:

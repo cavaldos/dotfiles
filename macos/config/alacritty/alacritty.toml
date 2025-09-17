@@ -1,0 +1,73 @@
+[colors.bright]
+black = "#5C6370"
+blue = "#61AFEF"
+cyan = "#56B6C2"
+green = "#98C379"
+magenta = "#C678DD"
+red = "#E06C75"
+white = "#FFFFFF"
+yellow = "#E5C07B"
+
+[colors.normal]
+black = "#282C34"
+blue = "#61AFEF"
+cyan = "#56B6C2"
+green = "#98C379"
+magenta = "#C678DD"
+red = "#E06C75"
+white = "#ABB2BF"
+yellow = "#E5C07B"
+
+[colors.primary]
+background = "#282C34"
+foreground = "#ABB2BF"
+
+[font.bold]
+family = "MesloLGS NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGS NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGS NF"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
+
+[window]
+padding.x = 10
+padding.y = 10
+decorations = "buttonless"
+title = "Terminal"
+
+[font]
+size = 13.0
+
+# # Nord theme
+# [colors.primary]
+# background = '#2E3440'
+# foreground = '#D8DEE9'
+
+# [colors.normal]
+# black = '#3B4252'
+# red = '#BF616A'
+# green = '#A3BE8C'
+# yellow = '#EBCB8B'
+# blue = '#81A1C1'
+# magenta = '#B48EAD'
+# cyan = '#88C0D0'
+# white = '#E5E9F0'
+
+# [colors.bright]
+# black = '#4C566A'
+# red = '#BF616A'
+# green = '#A3BE8C'
+# yellow = '#EBCB8B'
+# blue = '#81A1C1'
+# magenta = '#B48EAD'
+# cyan = '#8FBCBB'
+# white = '#ECEFF4'
