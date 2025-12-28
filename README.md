@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Bourbon Nvim
+# Nvim
 
 ![Neovim](https://img.shields.io/badge/NeoVim-%2358A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 ![Lua](https://img.shields.io/badge/lua-%233C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
